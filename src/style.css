@@ -1,0 +1,41 @@
+body{
+  font-family: Georgia;
+  font-size: 100%;
+  margin: auto;
+  background: gray;
+  text-align: center;
+  margin-top:15%;
+}
+.pasos{
+  text-align: left;
+}
+.screen1{
+  overflow:auto;
+}
+.screen2{
+  overflow:auto;
+}
+.TextMenu2{
+width: 20%;
+border: 100px;
+solid #fff;
+border-radius: 9px;
+margin: 18px 0;
+outline: none;
+padding: 9px;
+box-sizing:border-box;
+transition: 1s;
+}
+.TextMenu2:focus{
+  width: 500px;
+}
+
+.ButtonMenu{
+  width: 25%;
+  height: auto;
+  border: 100px;
+  solid #fff;
+  border-radius: 50px;
+  margin: auto;
+  overflow:auto;
+}

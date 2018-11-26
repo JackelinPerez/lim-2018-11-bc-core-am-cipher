@@ -24,6 +24,7 @@ const listenCode = (saveClave__,saveOffset__) =>{
 const menuPrincipal= () =>{
   //debugger
   let valor_encrip_desc='';
+  saveActionButonOK=document.getElementById('button1');
   saveActionButonEncript=document.getElementById('button2');
   saveActionButonDesEncript=document.getElementById('button3');
   outTextEncripDesencript=document.getElementById('result');
@@ -31,6 +32,14 @@ const menuPrincipal= () =>{
   saveClave_=document.getElementById('texto1');
   saveOffset_=document.getElementById('texto2');
 
+  document.getElementById("screen2").style.display="none";
+  
+  saveActionButonOK.addEventListener('click',
+    function(){
+      document.getElementById("screen1").style.display="none";
+      document.getElementById("screen2").style.display="block";
+    }
+  )
   saveActionButonEncript.addEventListener('click',
     function(){
       //debugger

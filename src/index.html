@@ -3,21 +3,34 @@
   <head>
     <meta charset="utf-8">
     <title>Caesar Cipher</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div id="root"></div>
-    <h1>Encripta y Desencripta Data</h1>
-    <form>
-      Ingrese Texto:<br>
-      <input type="text" id="texto1"><br>
-      Ingrese Offset:<br>
-      <input type="number" id="texto2"><br><br>
-      <button type="button" id="button2">Encriptar</button>
-      <button type="button" id="button3">Desencriptar</button><br><br>
-      Resultado:<br><br>
-      <label type="text" id="result"></label><br>
-    </form>
+    <div id="screen1">
+      <form>
+        <h1>Encripta y Desencripta Texto</h1>
+        <p>Pasos para encriptar.</p>
+        <ol class="pasos">
+          <li>Ingresa texto a codificar o decodificar</li>
+          <li>Ingresa el numero a desplazar tu texto</li>
+          <li>Se mostrara el resultado en la caja de texto</li>
+        </ol>
+        <button type="button" id="button1" class="ButtonMenu">Empezemos!</button>
+      </form>
+    </div>
+    <div id="screen2" class="Menu2">
+      <form>
+        Ingrese Texto:<br>
+        <input type="text" id="texto1" class="TextMenu2"><br>
+        Ingrese Offset:<br>
+        <input type="number" id="texto2" class="TextMenu2"><br><br>
+        <button type="button" id="button2" class="ButtonMenu">Encriptar</button>
+        <button type="button" id="button3" class="ButtonMenu">Desencriptar</button><br><br>
+        Resultado:<br><br>
+        <label id="result"></label>
+      </form>
+    </div>
     <script src="cipher.js"></script>
     <script src="index.js"></script>
   </body>
