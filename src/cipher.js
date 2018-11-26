@@ -50,7 +50,7 @@ let Decode_ = (saveClave,saveOffset) =>{
     }
     else{
       //encriptClaveAux.push(saveClave[i].charCodeAt(0)-saveOffset);
-		encriptClaveAux.push(saveClave[i].charCodeAt(0));
+      encriptClaveAux.push(saveClave[i].charCodeAt(0));
     }
     encript_descrip_Clave.push(String.fromCharCode(encriptClaveAux[i]));
   }
