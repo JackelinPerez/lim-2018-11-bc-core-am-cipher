@@ -1,17 +1,4 @@
-//variables globales
-/*
-let encriptClaveAux=[];
-let encript_descrip_Clave=[];
-let encript_descrip_Clave_end='';
-
-const IniConfig = () =>{
-  encriptClaveAux=[];
-  encript_descrip_Clave=[];
-  encript_descrip_Clave_end='';
-}
-*/
 let Encode_ = (saveClave,saveOffset) =>{
-  //IniConfig();
   let encriptClaveAux=[];
   let encript_descrip_Clave=[];
   let encript_descrip_Clave_end='';
@@ -33,8 +20,8 @@ let Encode_ = (saveClave,saveOffset) =>{
   encript_descrip_Clave_end=encript_descrip_Clave.join('');
   return encript_descrip_Clave_end;
 }
+
 let Decode_ = (saveClave,saveOffset) =>{
-  //IniConfig();
   let encriptClaveAux=[];
   let encript_descrip_Clave=[];
   let encript_descrip_Clave_end='';
