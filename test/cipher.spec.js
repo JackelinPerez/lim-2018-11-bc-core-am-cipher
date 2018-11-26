@@ -11,8 +11,8 @@ describe('cipher', () => {
       assert.equal(typeof cipher.encode, 'function');
     });
 
-    it('debería retornar "HIJKLMNOPQRSTUVWXYZABCDEFG" para "ABCDEFGHIJKLMNOPQRSTUVWXYZ" con offest 33', ()=>{
-      assert.equal(cipher.encode("ABCDEFGHIJKLMNOPQRSTUVWXYZ",33),"HIJKLMNOPQRSTUVWXYZABCDEFG");
+    it('debería retornar "NOP nop #%&" para "ABC abc #%&" con offest 65', ()=>{
+      assert.equal(cipher.encode("ABC abc #%&",65),"NOP nop #%&");
     });
   });
 
@@ -22,8 +22,8 @@ describe('cipher', () => {
       assert.equal(typeof cipher.decode, 'function');
     });
 
-    it('debería retornar "ABCDEFGHIJKLMNOPQRSTUVWXYZ" para "HIJKLMNOPQRSTUVWXYZABCDEFG" con offest 33', ()=>{
-      assert.equal(cipher.decode("HIJKLMNOPQRSTUVWXYZABCDEFG",33),"ABCDEFGHIJKLMNOPQRSTUVWXYZ");
+    it('debería retornar "ABC abc #%&" para "NOP nop #%&" con offest 65', ()=>{
+      assert.equal(cipher.decode("NOP nop #%&",65),"ABC abc #%&");
     });
   });
 
