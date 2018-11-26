@@ -1,5 +1,5 @@
 //variables globales
-
+/*
 let encriptClaveAux=[];
 let encript_descrip_Clave=[];
 let encript_descrip_Clave_end='';
@@ -9,8 +9,12 @@ const IniConfig = () =>{
   encript_descrip_Clave=[];
   encript_descrip_Clave_end='';
 }
+*/
 let Encode_ = (saveClave,saveOffset) =>{
-  IniConfig();
+  //IniConfig();
+  let encriptClaveAux=[];
+  let encript_descrip_Clave=[];
+  let encript_descrip_Clave_end='';
   for(let i=0; i<saveClave.length; i++){
     //(x-65+n)%26+65
     if((saveClave[i].charCodeAt(0)<=90 && saveClave[i].charCodeAt(0)>=65)||
@@ -30,7 +34,10 @@ let Encode_ = (saveClave,saveOffset) =>{
   return encript_descrip_Clave_end;
 }
 let Decode_ = (saveClave,saveOffset) =>{
-  IniConfig();
+  //IniConfig();
+  let encriptClaveAux=[];
+  let encript_descrip_Clave=[];
+  let encript_descrip_Clave_end='';
   for(let i=0; i<saveClave.length; i++){
     //(x+65-n)%26+65
     if((saveClave[i].charCodeAt(0)<=90 && saveClave[i].charCodeAt(0)>=65)||
@@ -62,4 +69,3 @@ window.cipher = {
   encode: Encode_,
   decode: Decode_,
 };
-
