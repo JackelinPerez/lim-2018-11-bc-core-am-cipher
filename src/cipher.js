@@ -4,6 +4,11 @@ let encriptClaveAux=[];
 let encript_descrip_Clave=[];
 let encript_descrip_Clave_end='';
 
+const IniConfig = () =>{
+  encriptClaveAux=[];
+  encript_descrip_Clave=[];
+  encript_descrip_Clave_end='';
+}
 let Encode_ = (saveClave,saveOffset) =>{
   IniConfig();
   for(let i=0; i<saveClave.length; i++){
@@ -58,8 +63,3 @@ window.cipher = {
   decode: Decode_,
 };
 
-const IniConfig = () =>{
-  encriptClaveAux=[];
-  encript_descrip_Clave=[];
-  encript_descrip_Clave_end='';
-}
