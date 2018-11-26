@@ -20,7 +20,6 @@ const listenCode = (saveClave__,saveOffset__) =>{
 }
 
 const menuPrincipal= () =>{
-  //debugger
   let valor_encrip_desc='';
   saveActionButonOK=document.getElementById('button1');
   saveActionButonEncript=document.getElementById('button2');
@@ -40,7 +39,6 @@ const menuPrincipal= () =>{
   )
   saveActionButonEncript.addEventListener('click',
     function(){
-      //debugger
       if(Math.sign(parseInt(saveOffset_.value))>=0)
         valor_encrip_desc=listenCode(saveClave_.value,parseInt(saveOffset_.value));
       else

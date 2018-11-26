@@ -58,10 +58,6 @@ window.cipher = {
   decode: Decode_,
 };
 
-function ejem(texto){
-	console.log(texto);
-}
-//cipher.ejemplo('hola');
 const IniConfig = () =>{
   encriptClaveAux=[];
   encript_descrip_Clave=[];
