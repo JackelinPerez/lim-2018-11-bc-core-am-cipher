@@ -30,7 +30,7 @@ let Decode_ = (saveClave,saveOffset) =>{
     //(x+65-n)%26+65
     if((saveClave[i].charCodeAt(0)<=90 && saveClave[i].charCodeAt(0)>=65)||
        (saveClave[i].charCodeAt(0)<=122 && saveClave[i].charCodeAt(0)>=97)){
-  		if(saveClave[i].charCodeAt(0)>=97){
+		if(saveClave[i].charCodeAt(0)>=97){
   			if(Math.sign((saveClave[i].charCodeAt(0)-97-saveOffset)%26)>=0)/*Se considero '==' ya que (-num)%26 ===-0*/
   			   encriptClaveAux.push((saveClave[i].charCodeAt(0)-97-saveOffset)%26+97);
   			else
