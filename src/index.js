@@ -43,8 +43,8 @@ const menuPrincipal= () =>{
         valor_encrip_desc=listenCode(saveClave_.value,parseInt(saveOffset_.value));
       else
         valor_encrip_desc=listenDecode(saveClave_.value,Math.abs(parseInt(saveOffset_.value)));
-      console.log('valor return= '+valor_encrip_desc);
-      outTextEncripDesencript.innerHTML=valor_encrip_desc;
+      
+	  outTextEncripDesencript.innerHTML=valor_encrip_desc;
     }
   );
   saveActionButonDesEncript.addEventListener('click',
@@ -53,8 +53,8 @@ const menuPrincipal= () =>{
         valor_encrip_desc=listenDecode(saveClave_.value,parseInt(saveOffset_.value));
       else
         valor_encrip_desc=listenCode(saveClave_.value,Math.abs(parseInt(saveOffset_.value)));
-      console.log('valor return= '+valor_encrip_desc);
-      outTextEncripDesencript.innerHTML=valor_encrip_desc;
+
+	  outTextEncripDesencript.innerHTML=valor_encrip_desc;
     }
   );
 }
