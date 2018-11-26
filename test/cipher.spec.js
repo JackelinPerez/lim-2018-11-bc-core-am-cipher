@@ -25,15 +25,4 @@ describe('cipher', () => {
       assert.equal(cipher.decode("NOP nop #%&",65),"ABC abc #%&");
     });
   });
-
-  describe('cipher.createCipherWithOffset', () => {
-
-    it('debería ser una función', () => {
-      assert.equal(typeof cipher.createCipherWithOffset, 'function');
-    });
-
-    it('debería retornar un objeto con dos funciones (encode y decode) con offset fijado');
-
-  });
-
 });
