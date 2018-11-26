@@ -7,10 +7,6 @@ let outTextEncripDesencript;
 let saveClave_;
 let saveOffset_;
 
-const test = () => {
-  console.log("test 1");
-}
-
 const listenDecode = (saveClave__,saveOffset__) =>{
   return cipher.decode(saveClave__,saveOffset__);
 }
@@ -43,8 +39,7 @@ const menuPrincipal= () =>{
         valor_encrip_desc=listenCode(saveClave_.value,parseInt(saveOffset_.value));
       else
         valor_encrip_desc=listenDecode(saveClave_.value,Math.abs(parseInt(saveOffset_.value)));
-      
-	  outTextEncripDesencript.innerHTML=valor_encrip_desc;
+	outTextEncripDesencript.innerHTML=valor_encrip_desc;
     }
   );
   saveActionButonDesEncript.addEventListener('click',
@@ -53,8 +48,7 @@ const menuPrincipal= () =>{
         valor_encrip_desc=listenDecode(saveClave_.value,parseInt(saveOffset_.value));
       else
         valor_encrip_desc=listenCode(saveClave_.value,Math.abs(parseInt(saveOffset_.value)));
-
-	  outTextEncripDesencript.innerHTML=valor_encrip_desc;
+	outTextEncripDesencript.innerHTML=valor_encrip_desc;
     }
   );
 }
