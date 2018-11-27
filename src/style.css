@@ -6,17 +6,22 @@ body{
   text-align: center;
   margin-top:15%;
 }
+.Menu{
+  width: 480px ; /* Ancho de 450 px*/
+  margin : Auto ; /* Para que lo centre el formulario */
+  background:rgba(0,0,0,0.3);
+  margin-top: 5px;
+  font-size: 15px;
+  text-align: center;
+  padding: 10px ;
+}
+
 .pasos{
   text-align: left;
 }
-.screen1{
-  overflow:auto;
-}
-.screen2{
-  overflow:auto;
-}
+
 .TextMenu2{
-width: 20%;
+width: 100px;
 border: 100px;
 solid #fff;
 border-radius: 9px;
@@ -26,10 +31,12 @@ padding: 9px;
 box-sizing:border-box;
 transition: 1s;
 }
-.TextMenu2:focus{
-  width: 500px;
+#texto1:focus{
+  width: 350px;
 }
-
+#texto2:focus{
+  width: 50px;
+}
 .ButtonMenu{
   width: 25%;
   height: auto;
@@ -37,5 +44,11 @@ transition: 1s;
   solid #fff;
   border-radius: 50px;
   margin: auto;
-  overflow:auto;
+  padding: 10px;
 }
+ #button1{
+   margin-top: 10px;
+ }
+ #button3{
+   margin-left: 10px;
+ }
