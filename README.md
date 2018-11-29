@@ -21,16 +21,16 @@ En la actualidad, todos los cifrados de sustitución simple se descifran con muc
 
 #Objetivo del Producto
 
--Permite al usuario encriptar o desencriptar un texto o archivo plano, mediante el cifrado Cesar
+- Permite al usuario encriptar o desencriptar un texto o archivo plano, mediante el cifrado Cesar
 
 #Usuarios del producto
 
--Empresas o Usuarios que deseen guardar informacion de sus archivos de texto plano cifrado en Cesar.
--Empresas o Usuarios que deseen saber el descifrado en Cesar del contenido de un archivo en texto plano.
--Empresas o Usuarios que de forma manual escriban el texto a cifrar en Cesar.
--Empresas o Usuarios que de forma manual escriban el texto a descifrar en Cesar.
+- Empresas o Usuarios que deseen guardar informacion de sus archivos de texto plano cifrado en Cesar.
+- Empresas o Usuarios que deseen saber el descifrado en Cesar del contenido de un archivo en texto plano.
+- Empresas o Usuarios que de forma manual escriban el texto a cifrar en Cesar.
+- Empresas o Usuarios que de forma manual escriban el texto a descifrar en Cesar.
 
 #Instalacion
--No hay Instalacion solo debe dirigirse al siguiente [Enlace](https://jackelinperez.github.io/lim-2018-11-bc-core-am-cipher/src/)
+- No hay Instalacion solo debe dirigirse al siguiente [Enlace](https://jackelinperez.github.io/lim-2018-11-bc-core-am-cipher/src/)
 
 #¿Como usar el producto?
