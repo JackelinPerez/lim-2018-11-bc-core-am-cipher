@@ -13,24 +13,24 @@ Por ejemplo, si usamos un desplazamiento (_offset_) de 3 posiciones:
 - Alfabeto sin cifrar: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
 - Alfabeto cifrado: D E F G H I J K L M N O P Q R S T U V W X Y Z A B C
 
-#Problematica
+# Problematica
 
 Muchas empresas de alta seguridad desean guardar informacion confidencial y que solo sus personales autorizados tengan acceso a ella, hay muchas formas de guardar con seguridad dicha informacion, pero nosotros nos enfocaremos en cifrar, descifrar y guardarla en texto plano, mediante el cifrado Cesar.
 
 En la actualidad, todos los cifrados de sustitución simple se descifran con mucha facilidad y, aunque en la práctica no ofrecen mucha seguridad en la comunicación por sí mismos; el cifrado César sí puede formar parte de sistemas más complejos de codificación, como el cifrado Vigenère, e incluso tiene aplicación en el sistema ROT13.
 
-#Objetivo del Producto
+# Objetivo del Producto
 
 - Permite al usuario encriptar o desencriptar un texto o archivo plano, mediante el cifrado Cesar
 
-#Usuarios del producto
+# Usuarios del producto
 
 - Empresas o Usuarios que deseen guardar informacion de sus archivos de texto plano cifrado en Cesar.
 - Empresas o Usuarios que deseen saber el descifrado en Cesar del contenido de un archivo en texto plano.
 - Empresas o Usuarios que de forma manual escriban el texto a cifrar en Cesar.
 - Empresas o Usuarios que de forma manual escriban el texto a descifrar en Cesar.
 
-#Instalacion
+# Instalacion
 - No hay Instalacion solo debe dirigirse al siguiente [Enlace](https://jackelinperez.github.io/lim-2018-11-bc-core-am-cipher/src/)
 
-#¿Como usar el producto?
+# ¿Como usar el producto?
