@@ -8,25 +8,25 @@
   </head>
   <body>
     <section id="screen1" class="Menu">
-      <h1>Encripta y Desencripta Texto</h1>
-      <p>Pasos para encriptar.</p>
+      <h1>Cifrado y Descifrado Cesar</h1>
       <article class="Pasos">
+      <p><strong>Pasos para cifrar o descifrar.</strong></p>
         <ol class="pasos">
-          <li>Ingresa texto a codificar o decodificar= "abc ABC %$!"</li>
-          <li>Ó en caso tengas el texto en un archivo tipo ".txt" Subirlo!</li>
-          <li>Ingresa el "Offset" ó numero a desplazar tu texto= "65"</li>
-          <li>Se mostrara el resultado en la caja de texto= "nop NOP %$!"</li>
+          <li>Ingresa texto a cifrar o descifrar. Texto="abc ABC %$!"</li>
+          <li>Ó en caso tengas el texto en un archivo plano ".txt" Subirlo!</li>
+          <li>Ingresa el "Offset" ó numero de identificacion. Offset="65"</li>
+          <li>Se mostrara el resultado en la caja de texto. Resultado="nop NOP %$!"</li>
         </ol>
       </article>
       <article class="Nota">
         <strong>Nota: </strong><br>
         <ul class="nota">
-          <li>En caso de subir tu archivo ".txt" la opcion se encuentra en la parte inferior de la siguiente pagina</li>
+          <li>En caso de subir tu archivo ".txt" la opcion se encuentra en la parte inferior de la siguiente pagina.</li>
           <li>En caso el texto contenga letras con tilde, u otros caracteres distintos de letras estos No seran encriptados.</li>
-          <li>Si el "Offset" es un numero negativo: -3, el desplazamiento
-          sera de derecha a izquierda, considerando como inicio la letra
-          "a/A" y posicion="1"</li><br>
-          Ejemplo: Texto="abc ABC %$!" Offset="-3" Texto_Encriptado="xyz XYZ %$!"
+          <li>Si el "Offset" es un numero negativo: "-3", en caso de cifrar el desplazamiento sera de derecha a izquierda
+            considerando a la letra "a/A" con posicion_inicial="1" y si debe regresar iniciara "z/z" en posicion_final='26'</li><br>
+            Ejemplo: <br>
+            Texto a Cifrar= "abc ABC %$!" , Offset="-3" Texto Descifrado= "xyz XYZ %$!"
         </ul>
       </article>
       <button type="button" id="button1" class="ButtonMenu">Empezemos!</button>

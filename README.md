@@ -19,9 +19,13 @@ Muchas empresas de alta seguridad desean guardar informacion confidencial y que 
 
 En la actualidad, todos los cifrados de sustitución simple se descifran con mucha facilidad y, aunque en la práctica no ofrecen mucha seguridad en la comunicación por sí mismos; el cifrado César sí puede formar parte de sistemas más complejos de codificación, como el cifrado Vigenère, e incluso tiene aplicación en el sistema ROT13.
 
+# Solución del Problema
+
+- Se creo una aplicacion que permitira al usuario escribir de manera manual ó cargando un archivo de texto plano el texto a Cifrar/Descifrar.
+
 # Objetivo del Producto
 
-- Permite al usuario encriptar o desencriptar un texto o archivo plano, mediante el cifrado Cesar
+- Permite al usuario encriptar o desencriptar texto o archivo plano Cesar.
 
 # Usuarios del producto
 

@@ -2,26 +2,46 @@ body{
   font-family: Georgia;
   font-size: 100%;
   margin: auto;
-  background: gray;
+  background: url(steel.png);
   text-align: center;
   margin-top:10%;
   margin-bottom: 10%;
-}
-.Menu{
-  width: 50% ;
-  margin : auto;
-  background:rgba(0,0,0,0.3);
-  padding: 5%;
-}
-.Nota{
-  text-align: left;
-  padding: 3% ;
 }
 .Pasos{
   text-align: left;
   padding: 3% ;
 }
-
+.Nota{
+  text-align: left;
+  padding: 3% ;
+}
+.Menu{
+  width: 50% ;
+  margin : auto;
+  background:rgba(163, 194, 194,0.6);
+  padding: 5%;
+}
+.ButtonMenu{
+  border: 2px solid #b3cccc;
+  width: 25%;
+  border-radius: 15px;
+  padding: 1%;
+  align-items: center;
+  justify-content: center;
+  background-color: #b3cccc;
+}
+.ButtonMenu:hover{
+  background: rgba(179, 204, 204,0.5);
+  color: black;
+  border-radius: 15px;
+}
+.ButtonMenu:focus{
+  outline: none;
+}
+#button1{
+  margin-top: 5%;
+  align-items: center;
+}
 .TextMenu2{
 width: 25%;
 border: 10%;
@@ -30,32 +50,32 @@ margin: 3%;
 outline: none;
 padding: 1%;
 transition: 1s;
-}
-#texto2{
-  width: 10%;
+background:rgba(224, 235, 235);
 }
 #texto1:focus{
   width: 50%;
 }
+#texto2{
+  width: 10%;
+}
 #texto2:focus{
   width: 15%;
 }
-.ButtonMenu{
-  width: 25%;
-  border: 1%;
-  border-radius: 15px;
-  padding: 1%;
-  align-items: center;
-  justify-content: center;
+#button3{
+  margin-left: 5%;
 }
- #button1{
-   margin-top: 5%;
-   align-items: center;
- }
- #button3{
-   margin-left: 5%;
- }
+#result{
+  background:rgba(224, 235, 235);
+  border-radius: 15px;
+}
+#result:focus{
+  outline: none;
+}
 #saveFile{
   padding: 5%;
+  width:50%;
   justify-content: center;
+}
+#saveFile:focus{
+  outline: none;
 }
