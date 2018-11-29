@@ -7,17 +7,31 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <form id="screen1" class="Menu">
+    <section id="screen1" class="Menu">
       <h1>Encripta y Desencripta Texto</h1>
       <p>Pasos para encriptar.</p>
-      <ol class="pasos">
-        <li>Ingresa texto a codificar o decodificar</li>
-        <li>Ingresa el numero a desplazar tu texto</li>
-        <li>Se mostrara el resultado en la caja de texto</li>
-      </ol>
+      <article class="Pasos">
+        <ol class="pasos">
+          <li>Ingresa texto a codificar o decodificar= "abc ABC %$!"</li>
+          <li>Ó en caso tengas el texto en un archivo tipo ".txt" Subirlo!</li>
+          <li>Ingresa el "Offset" ó numero a desplazar tu texto= "65"</li>
+          <li>Se mostrara el resultado en la caja de texto= "nop NOP %$!"</li>
+        </ol>
+      </article>
+      <article class="Nota">
+        <strong>Nota: </strong><br>
+        <ul class="nota">
+          <li>En caso de subir tu archivo ".txt" la opcion se encuentra en la parte inferior de la siguiente pagina</li>
+          <li>En caso el texto contenga letras con tilde, u otros caracteres distintos de letras estos No seran encriptados.</li>
+          <li>Si el "Offset" es un numero negativo: -3, el desplazamiento
+          sera de derecha a izquierda, considerando como inicio la letra
+          "a/A" y posicion="1"</li><br>
+          Ejemplo: Texto="abc ABC %$!" Offset="-3" Texto_Encriptado="xyz XYZ %$!"
+        </ul>
+      </article>
       <button type="button" id="button1" class="ButtonMenu">Empezemos!</button>
-    </form>
-    <form id="screen2" class="Menu">
+    </section>
+    <section id="screen2" class="Menu">
       Ingrese Texto:<br>
       <input type="text" id="texto1" class="TextMenu2"><br>
       Ingrese Offset:<br>
@@ -25,8 +39,12 @@
       <button type="button" id="button2" class="ButtonMenu">Encriptar</button>
       <button type="button" id="button3" class="ButtonMenu">Desencriptar</button><br><br>
       Resultado:<br><br>
-      <textarea id="result" readonly></textarea>
-    </form>
+      <textarea id="result" rows="15" cols="50" readonly ></textarea><br>
+      <input type="file" accept="text/plain" id="saveFile" >
+    </section>
+    <section id="screen3" class="Menu">
+
+    </section>
     <script src="cipher.js"></script>
     <script src="index.js"></script>
   </body>

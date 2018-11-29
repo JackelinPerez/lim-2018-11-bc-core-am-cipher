@@ -4,51 +4,58 @@ body{
   margin: auto;
   background: gray;
   text-align: center;
-  margin-top:15%;
+  margin-top:10%;
+  margin-bottom: 10%;
 }
 .Menu{
-  width: 480px ; /* Ancho de 450 px*/
-  margin : Auto ; /* Para que lo centre el formulario */
+  width: 50% ;
+  margin : auto;
   background:rgba(0,0,0,0.3);
-  margin-top: 5px;
-  font-size: 15px;
-  text-align: center;
-  padding: 10px ;
+  padding: 5%;
 }
-
-.pasos{
+.Nota{
   text-align: left;
+  padding: 3% ;
+}
+.Pasos{
+  text-align: left;
+  padding: 3% ;
 }
 
 .TextMenu2{
-width: 100px;
-border: 100px;
-solid #fff;
-border-radius: 9px;
-margin: 18px 0;
+width: 25%;
+border: 10%;
+border-radius: 15px;
+margin: 3%;
 outline: none;
-padding: 9px;
-box-sizing:border-box;
+padding: 1%;
 transition: 1s;
 }
+#texto2{
+  width: 10%;
+}
 #texto1:focus{
-  width: 350px;
+  width: 50%;
 }
 #texto2:focus{
-  width: 50px;
+  width: 15%;
 }
 .ButtonMenu{
   width: 25%;
-  height: auto;
-  border: 100px;
-  solid #fff;
-  border-radius: 50px;
-  margin: auto;
-  padding: 10px;
+  border: 1%;
+  border-radius: 15px;
+  padding: 1%;
+  align-items: center;
+  justify-content: center;
 }
  #button1{
-   margin-top: 10px;
+   margin-top: 5%;
+   align-items: center;
  }
  #button3{
-   margin-left: 10px;
+   margin-left: 5%;
  }
+#saveFile{
+  padding: 5%;
+  justify-content: center;
+}
