@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>Caesar Cipher</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" maximun-scale=1.0 minimum-scale='1.0'>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
@@ -33,13 +33,13 @@
     </section>
     <section id="screen2" class="Menu">
       Ingrese Texto:<br>
-      <textarea id="texto1" class="TextMenu2" rows="20" cols="50"></textarea><br>
+      <textarea id="texto1" class="TextMenu2"></textarea><br>
       Ingrese Offset:<br>
       <input type="number" id="texto2" class="TextMenu2"><br><br>
       <button type="button" id="button2" class="ButtonMenu">Encriptar</button>
       <button type="button" id="button3" class="ButtonMenu">Desencriptar</button><br><br>
       Resultado:<br><br>
-      <textarea id="result" class="TextMenu2"rows="20" cols="50" readonly ></textarea><br>
+      <textarea id="result" class="TextMenu2" readonly ></textarea><br>
       <input type="file" accept="text/plain" id="saveFile" >
     </section>
     <script src="cipher.js"></script>
