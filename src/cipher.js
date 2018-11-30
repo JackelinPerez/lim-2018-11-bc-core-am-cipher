@@ -1,4 +1,4 @@
-let Encode_ = (saveClave,saveOffset) =>{
+let Encode_ = (saveOffset,saveClave) =>{
   let encriptClaveAux=[];
   let encript_descrip_Clave=[];
   let encript_descrip_Clave_end='';
@@ -21,7 +21,7 @@ let Encode_ = (saveClave,saveOffset) =>{
   return encript_descrip_Clave_end;
 }
 
-let Decode_ = (saveClave,saveOffset) =>{
+let Decode_ = (saveOffset,saveClave) =>{
   let encriptClaveAux=[];
   let encript_descrip_Clave=[];
   let encript_descrip_Clave_end='';

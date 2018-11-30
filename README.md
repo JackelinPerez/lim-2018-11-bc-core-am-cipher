@@ -21,7 +21,7 @@ En la actualidad, todos los cifrados de sustitución simple se descifran con muc
 
 # Solución del Problema
 
-- Se creo una aplicacion que permitira al usuario escribir de manera manual ó cargando un archivo de texto plano el texto a Cifrar/Descifrar.
+- Se creo una aplicación que permitira al usuario escribir de manera manual ó cargando un archivo de texto plano el texto a Cifrar/Descifrar.
 
 # Objetivo del Producto
 
@@ -29,33 +29,33 @@ En la actualidad, todos los cifrados de sustitución simple se descifran con muc
 
 # Usuarios del producto
 
-- Empresas o Usuarios que deseen guardar informacion de sus archivos de texto plano cifrado en Cesar.
+- Empresas o Usuarios que deseen guardar información de sus archivos de texto plano cifrado en Cesar.
 - Empresas o Usuarios que deseen saber el descifrado en Cesar del contenido de un archivo en texto plano.
 - Empresas o Usuarios que de forma manual escriban el texto a cifrar en Cesar.
 - Empresas o Usuarios que de forma manual escriban el texto a descifrar en Cesar.
 
 # Instalacion
-- No hay Instalacion solo debe dirigirse al siguiente [Enlace](https://jackelinperez.github.io/lim-2018-11-bc-core-am-cipher/src/)
+- No hay Instalación solo debe dirigirse al siguiente [Enlace](https://jackelinperez.github.io/lim-2018-11-bc-core-am-cipher/src/)
 
-# ¿Como usar el producto?
+# ¿Cómo usar el producto?
 
 - La primera pantalla muestra las instrucciones de la aplicacion.
 - Si seguimos los pasos estos serian del siguiente modo:
-1. Si abrimos la aplicacion la primera pantalla se visualiza las instrucciones de uso de la aplicacion, como se ve en la siguiente imagen.
+1. Si abrimos la aplicación la primera pantalla se visualiza las instrucciones de uso de la aplicación, como se ve en la siguiente imagen.
 
 ![Pantalla de Inicio.](https://jackelinperez.github.io/lim-2018-11-bc-core-am-cipher/src/imagen1.png)
 
-2. Ingrese el Texto a Cifrar/Descifrar y el Offset, el Offset es por defecto un número este sera nuestro número de identificación con el que Descifraremos o Cifraremos en Cesar, en las casillas en blanco luego de ello seleccionar la opcion que desee hacer Cifrar/Descifrar.
+2. Ingrese el Texto a Cifrar/Descifrar y el Offset, el Offset es por defecto un número este sera nuestro número de identificación con el que Descifraremos/Cifraremos codigo Cesar en las casillas en blanco, luego de ello seleccionar la opción que desee hacer Cifrar/Descifrar.
 
 ![Ingreso de texto y Offset](https://jackelinperez.github.io/lim-2018-11-bc-core-am-cipher/src/imagen2.png)
 
-Esta imagen nos muestra un ejemplo de como usar la aplicacion, en el se muestra el Cifrado del Texto ingresado.
+Esta imagen nos muestra un ejemplo de como usar la aplicación, en el se muestra el Cifrado del Texto ingresado.
 
-3. En caso que se desee enviar la informacion desde un texto plano, tendra que seleccionar el boton que se encuentra en la parte inferior de la pantalla y subir su archivo .txt que contenga la informacion a Cifrar/Descifrar.
+3. En caso que se desee enviar la informacion desde un texto plano, tendra que seleccionar el botón que se encuentra en la parte inferior de la pantalla y subir su archivo .txt que contenga la información a Cifrar/Descifrar.
 
 ![Ingreso de archivo ".txt"](https://jackelinperez.github.io/lim-2018-11-bc-core-am-cipher/src/imagen3.png)
 
-Al darle Click en "abrir", podremos observar que la informacion del texto plano se traslado a nuestro caja de ingrese Texto como lo muestra la siguiente imagen:
+Al darle Click en "abrir", podremos observar que la información del texto plano se traslado a nuestra caja de Texto como lo muestra la siguiente imagen:
 
 ![Información trasladada a la caja de texto".txt"](https://jackelinperez.github.io/lim-2018-11-bc-core-am-cipher/src/imagen4.png)
 
@@ -65,4 +65,4 @@ Al darle Click en "abrir", podremos observar que la informacion del texto plano 
 
 # Conclusión
 
-Por medio de esta aplicacion muchas Empresas o Usuarios podran guardar documentos con mucha seguridad, sin necesidad de ser violentados ya que ellos manejan la Información del número de identificacion u Offset.
+Por medio de esta aplicación muchas Empresas o Usuarios podran guardar documentos con mucha seguridad, sin necesidad de ser violentados ya que ellos manejan la Información del número de identificación u Offset.

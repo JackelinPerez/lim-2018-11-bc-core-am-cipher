@@ -6,14 +6,6 @@ let saveFile;
 let saveClave = '';
 let saveOffset = '';
 
-const listenDecode = (saveClave_, saveOffset_) => {
-  return cipher.decode(saveClave_, saveOffset_);
-}
-
-const listenCode = (saveClave_, saveOffset_) => {
-  return cipher.encode(saveClave_, saveOffset_);
-}
-
 const menuPrincipal = () => {
   let valueEncripDescrip = '';
   saveActionButonOK = document.getElementById('button1');
@@ -45,9 +37,9 @@ const menuPrincipal = () => {
     function () {
       if (saveClave.value.length !== 0 && saveOffset.value.length !== 0) {
         if (Math.sign(parseInt(saveOffset.value)) >= 0)
-          valueEncripDescrip = listenCode(saveClave.value, parseInt(saveOffset.value));
+          valueEncripDescrip = cipher.encode(parseInt(saveOffset.value),(saveClave.value));
         else
-          valueEncripDescrip = listenDecode(saveClave.value, Math.abs(parseInt(saveOffset.value)));
+          valueEncripDescrip = cipher.decode(Math.abs(parseInt(saveOffset.value)),(saveClave.value));
         outTextEncripDesencript.innerHTML = valueEncripDescrip;
       }
       else {
@@ -60,9 +52,9 @@ const menuPrincipal = () => {
     function () {
       if (saveClave.value.length!==0 && saveOffset.value.length !== 0){
         if (Math.sign(parseInt(saveOffset.value)) >= 0)
-          valueEncripDescrip = listenDecode(saveClave.value, parseInt(saveOffset.value));
+          valueEncripDescrip = cipher.decode(parseInt(saveOffset.value),(saveClave.value));
         else
-          valueEncripDescrip = listenCode(saveClave.value, Math.abs(parseInt(saveOffset.value)));
+          valueEncripDescrip = cipher.encode(Math.abs(parseInt(saveOffset.value)),(saveClave.value));
         outTextEncripDesencript.innerHTML = valueEncripDescrip;
       }
       else {
