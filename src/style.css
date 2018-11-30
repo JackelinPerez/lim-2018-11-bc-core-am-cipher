@@ -64,3 +64,8 @@ background:rgba(224, 235, 235);
 #saveFile:focus{
   outline: none;
 }
+@media(max-width:600px) {
+  .Menu{
+    color: red;
+  }
+}
