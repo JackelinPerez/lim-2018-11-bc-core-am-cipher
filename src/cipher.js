@@ -1,3 +1,9 @@
+//variables globales
+
+let encriptClaveAux=[];
+let encript_descrip_Clave=[];
+let encript_descrip_Clave_end='';
+
 let Encode_ = (saveOffset,saveClave) =>{
   let encriptClaveAux=[];
   let encript_descrip_Clave=[];
