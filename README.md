@@ -43,21 +43,21 @@ En la actualidad, todos los cifrados de sustitución simple se descifran con muc
 - Si seguimos los pasos estos serian del siguiente modo:
 1. Si abrimos la aplicacion la primera pantalla se visualiza las instrucciones de uso de la aplicacion, como se ve en la siguiente imagen.
 
-![Pantalla de Inicio.](https://jackelinperez.github.io/lim-2018-11-bc-core-am-cipher/src/imagen1.png)
+![Pantalla de Inicio.](https://github.com/JackelinPerez/lim-2018-11-bc-core-am-cipher/tree/master/src/imagen1.png)
 
 2. Ingrese el Texto a Cifrar/Descifrar y el Offset, el Offset es por defecto un número este sera nuestro número de identificación con el que Descifraremos o Cifraremos en Cesar, en las casillas en blanco luego de ello seleccionar la opcion que desee hacer Cifrar/Descifrar.
 
-![Ingreso de texto y Offset](https://jackelinperez.github.io/lim-2018-11-bc-core-am-cipher/src/imagen2.png)
+![Ingreso de texto y Offset](https://github.com/JackelinPerez/lim-2018-11-bc-core-am-cipher/tree/master/src/imagen2.png)
 
 Esta imagen nos muestra un ejemplo de como usar la aplicacion, en el se muestra el Cifrado del Texto ingresado.
 
 3. En caso que se desee enviar la informacion desde un texto plano, tendra que seleccionar el boton que se encuentra en la parte inferior de la pantalla y subir su archivo .txt que contenga la informacion a Cifrar/Descifrar.
 
-![Ingreso de archivo ".txt"](https://jackelinperez.github.io/lim-2018-11-bc-core-am-cipher/src/imagen3.png)
+![Ingreso de archivo ".txt"](https://github.com/JackelinPerez/lim-2018-11-bc-core-am-cipher/tree/master/src/imagen3.png)
 
 Al darle Click en "abrir", podremos observar que la informacion del texto plano se traslado a nuestro caja de ingrese Texto como lo muestra la siguiente imagen:
 
-![Información trasladada a la caja de texto".txt"](https://jackelinperez.github.io/lim-2018-11-bc-core-am-cipher/src/imagen4.png)
+![Información trasladada a la caja de texto".txt"](https://github.com/JackelinPerez/lim-2018-11-bc-core-am-cipher/tree/master/src/imagen4.png)
 
 4. Al igual que el paso 2, debemos de ingresarle el Offset y decirle si queremos Cifrar/Descifrar.
 
