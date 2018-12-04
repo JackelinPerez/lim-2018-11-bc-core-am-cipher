@@ -19,10 +19,11 @@ body{
 }
 .ButtonMenu{
   border: 2px solid #b3cccc;
-  width: 25%;
+  width: 20%;
   border-radius: 15px;
   padding: 1%;
   background-color: #b3cccc;
+  margin: 3%;
 }
 .ButtonMenu:hover{
   background: rgba(179, 204, 204,0.5);
@@ -31,6 +32,11 @@ body{
 }
 .ButtonMenu:focus{
   outline: none;
+}
+.file-input {
+  visibility: hidden;
+  width: 0;
+  position: relative;
 }
 #button1{
   margin-top: 5%;
@@ -48,61 +54,46 @@ transition: 1s;
 background:rgba(224, 235, 235);
 }
 .TextMenu2:focus{
-  height: 100px;
+  height: 150px;
 }
-#texto2:focus{
+#saveOffset:focus{
   height: 15px;
 }
 #button3{
-  margin-left: 5%;
+  margin-left: 0%;
 }
-#saveFile{
-  padding: 5%;
-  width:50%;
-}
-#saveFile:focus{
-  outline: none;
-}
-@media(min-width:850px) {
-  .Menu{
-    width: auto;
-    height: auto;
-    align-items: center;
-  }
-  .texto2{
-    width:auto;
-    height: auto;
-    resize: none;
-  }
-}
+
 @media(max-width:1024px) {
   body{
-    margin: 5%;
+    margin: 2%;
   }
   .Menu{
     width: auto;
-    margin: auto;
-  }
-  .TextMenu2{
-    width: 48%;
-  }
-  .ButtonMenu{
-    width: 50%;
+    margin: 5%;
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
   }
 
-  #texto2{
-    width: 20%;
+  .ButtonMenu{
+    display: grid;
+    grid-column: auto;
+    padding: auto;
+    word-break: break-all;
+    margin: auto;
+
   }
-  #texto2.focus{
-    height: 15px;
+  #button2{
+    margin-bottom: 2%;
   }
   #button3{
-    margin-top: 5%;
-    margin-left:0%;
+    margin-left: auto;
   }
-  #saveFile{
-    height: 150%;
-    margin: 1%;
+
+  .TextMenu2{
+    width: 70%;
+  }
+  #saveOffset{
+    width: 10%;
   }
 }
 
@@ -112,16 +103,20 @@ background:rgba(224, 235, 235);
     margin: 5%;
   }
   .Menu{
-    padding-left: auto;
+    padding: 2%;
     text-align: center;
     margin:auto;
     margin-top: 2.5%;
     margin-bottom: 2.5%;
   }
-  #texto2{
-    width:75px;
-  }
   .ButtonMenu{
     padding: auto;
+  }
+
+  .TextMenu2{
+    width: 70%;
+  }
+  #saveOffset{
+    width: 10%;
   }
 }

@@ -33,14 +33,16 @@
     </section>
     <section id="screen2" class="Menu">
       Ingrese Texto:<br>
-      <textarea id="texto1" class="TextMenu2"></textarea><br>
+      <textarea id="saveText" class="TextMenu2"></textarea><br>
       Ingrese Offset:<br>
-      <input type="number" id="texto2" class="TextMenu2"><br><br>
+      <input type="number" id="saveOffset" class="TextMenu2"><br><br>
       <button type="button" id="button2" class="ButtonMenu">Encriptar</button>
       <button type="button" id="button3" class="ButtonMenu">Desencriptar</button><br><br>
       Resultado:<br><br>
       <textarea id="result" class="TextMenu2" readonly ></textarea><br>
-      <input type="file" accept="text/plain" id="saveFile" >
+      <button type="button" id="saveFile" class="ButtonMenu">Subir</button><br>
+      <output type="text" id="textFile"></output><br>
+      <button type="button" id="downloadFile" class="ButtonMenu">Descargar</button>
     </section>
     <script src="cipher.js"></script>
     <script src="index.js"></script>

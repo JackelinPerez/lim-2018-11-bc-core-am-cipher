@@ -11,8 +11,9 @@ describe('cipher', () => {
     });
 
     it('debería retornar "NOP nop #%&" para "ABC abc #%&" con offest 65', ()=>{
-      assert.equal(cipher.encode("ABC abc #%&",65),"NOP nop #%&");
+      assert.equal(cipher.encode(-5,"ABC DEF abc def #%&"),"VWXYZAvwxyza !");
     });
+
   });
 
   describe('cipher.decode', () => {
@@ -22,7 +23,8 @@ describe('cipher', () => {
     });
 
     it('debería retornar "ABC abc #%&" para "NOP nop #%&" con offest 65', ()=>{
-      assert.equal(cipher.decode("NOP nop #%&",65),"ABC abc #%&");
+      assert.equal(cipher.decode(-5,"VWXYZAvwxyza !"),"ABC DEF abc def #%&");
     });
+
   });
 });
