@@ -79,7 +79,7 @@ background:rgba(224, 235, 235);
     padding: auto;
     word-break: break-all;
     margin: auto;
-    width: auto;
+    width: 30%;
   }
   #button2{
     margin-bottom: 2%;
@@ -109,6 +109,7 @@ background:rgba(224, 235, 235);
   }
   .ButtonMenu{
     padding: auto;
+    width: 25%;
   }
   .TextMenu2{
     width: 70%;
