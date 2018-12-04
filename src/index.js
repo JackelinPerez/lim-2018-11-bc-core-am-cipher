@@ -69,6 +69,7 @@ const menuPrincipal = () => {
       outTextEncripDesencript.value = '';
       saveText.value = '';
       saveOffset.value ='';
+      textFile.value = '';
     }
   });
 
@@ -92,7 +93,10 @@ const menuPrincipal = () => {
         if (saveText.value.length === 0) alert('Por favor ingrese texto');
         else alert('Por favor ingrese offset');
       }
-      if(textFile.value.length!==0) valueFileDownload = textFile.value.substring(0,textFile.value.length-4) + 'Encode' +'.txt';
+      if(textFile.value.length!==0)
+        valueFileDownload = textFile.value.substring(0,textFile.value.length-4) + 'Encode' +'.txt';
+      else
+        valueFileDownload = 'TextEncode.txt'
     }
   );
   saveActionButonDesEncript.addEventListener('click',
@@ -105,7 +109,10 @@ const menuPrincipal = () => {
         if (saveText.value.length === 0) alert('Por favor ingrese texto');
         else alert('Por favor ingrese offset');
       }
-      if(textFile.value.length!==0) valueFileDownload = textFile.value.substring(0,textFile.value.length-4) + 'Decode' + '.txt';
+      if(textFile.value.length!==0)
+        valueFileDownload = textFile.value.substring(0,textFile.value.length-4) + 'Decode' + '.txt';
+      else
+      valueFileDownload = 'TextEncode.txt'
     }
   );
 

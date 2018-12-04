@@ -22,7 +22,7 @@
         <strong>Nota: </strong><br>
         <ul class="nota">
           <li>En caso de subir tu archivo ".txt" la opcion se encuentra en la parte inferior de la siguiente pagina.</li>
-          <li>En caso el texto contenga letras con tilde, u otros caracteres distintos de letras estos No seran encriptados.</li>
+          <li>En caso el texto contenga letras con tilde, u otros caracteres distintos de letras estos Seran encriptados en base a la tabla Ascii.</li>
           <li>Si el "Offset" es un numero negativo: "-3", en caso de cifrar el desplazamiento sera de derecha a izquierda
             considerando a la letra "a/A" con posicion_inicial="1" y si debe regresar iniciara "z/z" en posicion_final='26'</li><br>
             Ejemplo: <br>
@@ -33,7 +33,7 @@
     </section>
     <section id="screen2" class="Menu">
       Ingrese Texto:<br>
-      <textarea id="saveText" class="TextMenu2"></textarea><br>
+      <textarea id="saveText" class="TextMenu2" autocorrect="off" autocomplete="off"></textarea><br>
       Ingrese Offset:<br>
       <input type="number" id="saveOffset" class="TextMenu2"><br><br>
       <button type="button" id="button2" class="ButtonMenu">Encriptar</button>

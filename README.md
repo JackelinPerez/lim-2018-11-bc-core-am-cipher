@@ -25,7 +25,7 @@ En la actualidad, todos los cifrados de sustitución simple se descifran con muc
 
 # Objetivo del Producto
 
-- Permite al usuario encriptar o desencriptar texto o archivo plano Cesar.
+- Permite al usuario encriptar o desencriptar texto o archivo plano en codigo Cesar.
 
 # Usuarios del producto
 
